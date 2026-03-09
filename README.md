@@ -24,13 +24,12 @@ Change your directory to your root workspace directory (*~/<your_dev_ws>*) and b
 colcon build
 ``` 
 Source your workspace with
-
+```bash
 source install/setup.bash
 ```
 ## How to run code
-hic window.
-Source the .bashrc file.  Note: It will be sourced every time you open a new terminal window from here on.
 
 Run the command below to see the simulation at work.
 ```bash
-ros2 launch wall_following_sim wall_sim_launch.py
+ros2 launch wall_following_real wall_real_launch.py
+```
