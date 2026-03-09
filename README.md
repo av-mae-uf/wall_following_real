@@ -13,7 +13,7 @@ cd <your_dev_ws>/src
 
 Download the repository using
 ```bash
-git clone https://github.com/av-mae-uf/wall_following_sim.git
+git clone https://github.com/av-mae-uf/wall_following_real.git
 ```
 The wall_following_sim package uses the ackermann_msgs package.  Add the following:
 ```bash
